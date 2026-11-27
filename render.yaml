@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: zara-leads
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: GOOGLE_PLACES_API_KEY
+        sync: false

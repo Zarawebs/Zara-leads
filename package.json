@@ -1,0 +1,10 @@
+{
+  "name": "zara-leads",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Business lead discovery dashboard for Zara Codes",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "better-sqlite3": "^11.7.0", "express": "^4.21.2" }
+}
